@@ -1,0 +1,22 @@
+{
+    "name": "kurs/php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Programigo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adam Klimas",
+            "email": "klimas.adam@gmail.com"
+        }
+    ],
+    "require": {
+        "php-di/php-di": "^7.0",
+        "phploc/phploc": "^7.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    }
+}
